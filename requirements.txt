@@ -1,0 +1,15 @@
+ultralytics>=8.0.0
+torch>=2.0.0
+opencv-python
+albumentations
+pyyaml
+tqdm
+streamlit
+numpy
+pandas
+matplotlib
+onnxruntime
+tensorboard
+scikit-learn
+Pillow
+openai
