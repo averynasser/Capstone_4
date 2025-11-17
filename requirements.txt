@@ -1,20 +1,19 @@
 streamlit==1.31.0
 
-# Stable OpenCV (headless only)
-opencv-python-headless==4.8.0.76
+# force headless OpenCV
+opencv-python-headless==4.11.0.86
 
-# YOLO stable
-ultralytics==8.0.196 
+# ultralytics that works in the logs
+ultralytics==8.1.0
 
-# Stable Torch CPU (compatible version)
-torch==2.3.0
-torchvision==0.18.0
+torch==2.9.1
+torchvision==0.24.1
 
-# Other deps
+# other deps
 Pillow>=10.0.0
 numpy
 pandas
 pyyaml
 requests
-openai
+openai==2.8.0
 python-dotenv
