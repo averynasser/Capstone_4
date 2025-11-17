@@ -1,9 +1,16 @@
 streamlit==1.31.0
 
-opencv-python-headless
+# Stable OpenCV (headless only)
+opencv-python-headless==4.8.0.76
 
+# YOLO stable
 ultralytics==8.0.196 
-torch
+
+# Stable Torch CPU (compatible version)
+torch==2.3.0
+torchvision==0.18.0
+
+# Other deps
 Pillow>=10.0.0
 numpy
 pandas
