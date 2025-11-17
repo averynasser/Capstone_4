@@ -1,25 +1,13 @@
-# Streamlit
 streamlit==1.31.0
 
-# Force override OpenCV and block GUI version
-opencv-python-headless==4.8.0.76
-opencv-python==4.8.0.76  # force same version as headless (prevents reinstall)
---extra-index-url https://download.pytorch.org/whl/cu121
+opencv-python-headless
 
-# YOLO
-ultralytics==8.1.0
-
-# PyTorch CPU version (no GPU)
-torch==2.3.0+cpu
-torchvision==0.18.0+cpu
-torchaudio==2.3.0+cpu
-
-# Other deps
+ultralytics==8.0.196  # versi stabil untuk server
+torch
 Pillow>=10.0.0
-pyyaml
 numpy
 pandas
+pyyaml
 requests
-openai==2.8.0
-packaging
+openai
 python-dotenv
